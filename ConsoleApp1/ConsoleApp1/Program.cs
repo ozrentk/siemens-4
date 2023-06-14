@@ -20,6 +20,8 @@ namespace ConsoleApp1
 
             Console.WriteLine("Finished writing lines.");
 
+            Console.WriteLine("This is a new message for new feature.");
+
             Console.ReadLine();
         }
     }
