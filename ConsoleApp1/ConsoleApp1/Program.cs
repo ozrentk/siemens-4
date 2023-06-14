@@ -11,8 +11,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hi there!");
-            Console.WriteLine("This is a new message.");
-			Console.WriteLine("This is a new message from branch falak.");	
+            Console.WriteLine("This is a new message.");            
+            Console.WriteLine("This is a message before loop.");
+			      Console.WriteLine("This is a new message from branch falak.");	
+
             for (var i = 0; i < 10; i++)
             {
                 Console.WriteLine("Line " + i);
@@ -21,6 +23,7 @@ namespace ConsoleApp1
             Console.WriteLine("Finished writing lines.");
             Console.WriteLine("This is Feature-01-VladimirGrabovac.");
             
+
 
             Console.ReadLine();
         }
