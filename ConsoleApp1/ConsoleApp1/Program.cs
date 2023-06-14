@@ -15,6 +15,8 @@ namespace ConsoleApp1
             Console.WriteLine("This is a message before loop.");
 			      Console.WriteLine("This is a new message from branch falak.");	
 
+            Console.WriteLine("This is a new message from Marjan Cuk.");
+
             for (var i = 0; i < 10; i++)
             {
                 Console.WriteLine("Line " + i);
