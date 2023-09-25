@@ -20,6 +20,8 @@ namespace ConsoleApp1
 
             LoopingService.DoLoop(15);
 
+            EmailingService.SendEmail("test@test.xyz", "Testing message", "This is a short testing message.\nThank you.");
+
             Console.WriteLine("Finished writing lines.");
 
             Console.ReadLine();
