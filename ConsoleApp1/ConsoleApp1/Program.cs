@@ -12,6 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             ConfigurationService.Configure("URL", "https://www.google.com");
+            ConfigurationService.Configure("ConnectionString", "Server=.;Database=myDataBase;Trusted_Connection=True;");
             Console.ReadLine();
         }
     }
