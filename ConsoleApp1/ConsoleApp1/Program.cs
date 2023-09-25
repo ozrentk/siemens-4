@@ -11,19 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi there!");
-            Console.WriteLine("This is a new message.");            
-            Console.WriteLine("This is a message before loop.");
-			      Console.WriteLine("This is a new message from branch falak.");	
-
-            Console.WriteLine("This is a new message from Marjan Cuk.");
-
-            LoopingService.DoLoop(15);
-
-            EmailingService.SendEmail("test@test.xyz", "Testing message", "This is a short testing message.\nThank you.");
-
-            Console.WriteLine("Finished writing lines.");
-
+            ConfigurationService.Configure("URL", "https://www.google.com");
+            ConfigurationService.Configure("ConnectionString", "Server=.;Database=myDataBase;Trusted_Connection=True;");
             Console.ReadLine();
         }
     }
