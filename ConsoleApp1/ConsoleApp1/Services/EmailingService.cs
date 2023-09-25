@@ -19,9 +19,9 @@ namespace ConsoleApp1.Services
             Console.WriteLine($"---");
             Console.WriteLine($"Sending email to {to}");
             Console.WriteLine($"Subject: {subject}");
-            Console.WriteLine($"--- Body ---");
+            Console.WriteLine($"*** Body ***");
             Console.WriteLine(body);
-            Console.WriteLine($"---");
+            Console.WriteLine($"***");
         }
     }
 }
