@@ -8,6 +8,12 @@ namespace ConsoleApp1.Services
 {
     public static class EmailingService
     {
+        /// <summary>
+        /// This sends email
+        /// </summary>
+        /// <param name="to"></param>
+        /// <param name="subject"></param>
+        /// <param name="body"></param>
         public static void SendEmail(string to, string subject, string body)
         {
             Console.WriteLine($"---");
