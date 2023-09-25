@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,15 +18,11 @@ namespace ConsoleApp1
 
             Console.WriteLine("This is a new message from Marjan Cuk.");
 
-            for (var i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Line " + i);
-            }
+            LoopingService.DoLoop(15);
+
+            EmailingService.SendEmail("test@test.xyz", "Testing message", "This is a short testing message.\nThank you.");
 
             Console.WriteLine("Finished writing lines.");
-            Console.WriteLine("This is Feature-01-VladimirGrabovac.");
-            
-
 
             Console.ReadLine();
         }
